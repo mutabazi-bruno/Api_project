@@ -19,6 +19,7 @@ Modern UI: Clean dark theme interface with smooth animations
 ----Technologies Used
 
 HTML5
+
 CSS3 (with animations and flexbox/grid layouts)
 
 JavaScript (ES6+)
@@ -70,7 +71,8 @@ Load Balancer(lb-01): ubuntu44@.202.44.87
 -Automated Deployment Script
 
 ------Video 
-This is a short video I made explainig my work i auploaded it on loom this is the link :https://www.loom.com/share/4a59ffdbae1345f8974b96c7fe8c58c6?sid=1fcb1fc9-51da-4fc2-96bd-e99ef0e70c5d Enjoy
+
+This is a short video I made explainig my work i uploaded it on loom.com this is the link :https://www.loom.com/share/4a59ffdbae1345f8974b96c7fe8c58c6?sid=1fcb1fc9-51da-4fc2-96bd-e99ef0e70c5d Enjoy
 
 
 -----------WEBSITE-----
