@@ -28,10 +28,37 @@ Navigation: Return to homepage by clearing the search bar
 ----API Reference
 This project uses the OMDb API, a RESTful web service to obtain movie information. To use this application, you'll need to register for an API key.
 
-----Contact & Support
+----Deployment
+Server Infrastructure
+
+Web Server 01(web-01): ubuntu@54.197.83.77
+Web Server 02(web-02): ubuntu@44.201.246.2
+Load Balancer(lb-01): ubuntu44@.202.44.87
+
+Deployment Process
+
+Server Preparation
+Install Process Manager (PM2)
+Create Application Directory
+Clone Repository
+Install Dependencies
+Configure Environment Variables
+Start Application with PM2
+Set Up Nginx as Reverse Proxy
+Automated Deployment Script
+
+------Video 
+This is a short video I made explainig my work i auploaded it on loom this is the link :https://www.loom.com/share/4a59ffdbae1345f8974b96c7fe8c58c6?sid=1fcb1fc9-51da-4fc2-96bd-e99ef0e70c5d Enjoy
+
+
+-----------WEBSITE-----
 
 Website: https://topbruno.tech
+
+----Contact & Support
+
 Email: b.mutabazi@alustudent.com
+Github: mutabazi-bruno
 
 
 © 2025 Bruno & Flix - Created by Mutabazi Ishimwe Bruno
