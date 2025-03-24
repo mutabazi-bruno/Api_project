@@ -30,7 +30,7 @@ This project uses the OMDb API, a RESTful web service to obtain movie informatio
 
 ----Contact & Support
 
-Website: TopBruno.tech
+Website: https://topbruno.tech
 Email: b.mutabazi@alustudent.com
 
 
