@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎬 Movie Recommendation App</title>
+    <title>Bruno & Flix | Movie Discovery</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
-    <div class="container">
-        <h1>MOVIE FLIX</h1>
-        <input type="text" id="searchInput" placeholder="Search for a movie...">
-        <button id="searchBtn">Search</button>
-
-        <div id="movieList"></div>
-        <div id="movieDetails"></div>
+    <div class="navbar">
+        <div class="logo">
+            <i class="fas fa-film"></i>
+            <h1>BRUNO & FLIX</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for a movie...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
     </div>
 
-    <script src="config.js"></script>  <!-- Loads API Key -->
-    <script src="script.js"></script>  <!-- Loads Main JS -->
+    <div class="container">
+        <div id="featuredMovies" class="section">
+            <h2>Featured Movies</h2>
+            <div class="movie-grid" id="featuredGrid"></div>
+        </div>
+
+        <div id="searchResults" class="section">
+            <h2>Search Results</h2>
+            <div class="movie-grid" id="movieList"></div>
+        </div>
+
+        <div id="movieDetails" class="movie-details-modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="detailsContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Bruno & Flix - Your Ultimate Movie Companion</p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
